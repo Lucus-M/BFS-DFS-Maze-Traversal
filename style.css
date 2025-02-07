@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Arcade';
+    src: url('arcadeFont.ttf'); 
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex-direction: column; 
+}
+
+.container {
+    font-family: 'Arcade';
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+canvas {
+    margin: 0 10px;
+    display: inline-block;
+    background-color: black;
+}
+
+#dcvscontainer, #bcvscontainer {
+    overflow: auto;
+    max-width: 100vw; 
+    max-height: 90vh; 
+    display: inline-block;
+    background-color: black;
+    border-radius: 8px;
+}   
+
+#generateButton{
+    color: #00FF00;
+    cursor: pointer;
+    user-select: none;
+}
+
+input{
+    border-color: white;
+    border: none;
+    font-family: 'Arcade';
+    margin: 5px;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 7em;
+}

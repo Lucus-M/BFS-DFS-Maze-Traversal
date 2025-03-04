@@ -1,16 +1,1 @@
-TILEPAINTER - README
 
-TilePainter is currently being hosted at http://178.128.148.67/lucus/Tiles/
-
-TilePainter is a special type of drawing application in which the user can create a grid of tiles, which they can upload themselves. 
-When user opens the app, they are given a blank canvas with a tile selector to the right. They can click the "plus" sign on the top of the tile selector to upload an image to use as a
-tile. Currently, the default size for tiles is 16x16 pixels, but users will be given the option to change the size of tiles in the future. They can select a tile to draw with, and click
-and drag within the canvas area to draw their tiles. They can zoom in and out using the scroll wheel or by pressing the + or - keys.
-
-PLANNED FEATURES:
--tile size changing
--metatiles (larger objects made up of smaller tiles)
--multiple frame animation & support for animated tiles
--drawing tools including different brush sizes, shapes, and a fill bucket
--ability to export and import tile projects as a JSON file
--uploading and hosting tilesets to share from the web server
